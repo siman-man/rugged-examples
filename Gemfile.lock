@@ -1,6 +1,7 @@
 GEM
   remote: https://rubygems.org/
   specs:
+    colorize (0.8.1)
     diff-lcs (1.2.5)
     rspec (3.5.0)
       rspec-core (~> 3.5.0)
@@ -15,12 +16,15 @@ GEM
       diff-lcs (>= 1.2.0, < 2.0)
       rspec-support (~> 3.5.0)
     rspec-support (3.5.0)
+    rugged (0.24.0)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
+  colorize
   rspec
+  rugged
 
 BUNDLED WITH
    1.12.5
