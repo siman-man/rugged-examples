@@ -8,3 +8,7 @@ path = 'Gemfile'
 blob = repo.blob_at(revision, path)
 
 puts blob.text
+
+puts ""
+
+puts blob.content
